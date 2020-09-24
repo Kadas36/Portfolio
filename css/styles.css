@@ -3,13 +3,13 @@
   padding: 0;
   margin: 0;
 }
-.head{
-  background-color: #2f3038;
-  height: 31.5em;
-}
 nav{
   display: flex;
   height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 ul{
   list-style-type: none;
@@ -19,7 +19,20 @@ ul{
 li a{
   text-decoration: none;
   margin-right: 100px;
+  color: #2f3038;
 }
 nav img{
   width: 50px;
+}
+.head{
+  background-color: #2f3038;
+  height: 31.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.head h1{
+  margin-bottom: 20px;
 }
