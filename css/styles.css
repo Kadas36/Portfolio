@@ -5,7 +5,7 @@
 }
 .head{
   background-color: #2f3038;
-  height: 35em;
+  height: 31.5em;
 }
 nav{
   display: flex;
@@ -18,7 +18,7 @@ ul{
 }
 li a{
   text-decoration: none;
-  margin-right: 60px;
+  margin-right: 100px;
 }
 nav img{
   width: 50px;
