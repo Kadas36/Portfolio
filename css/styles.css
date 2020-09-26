@@ -38,10 +38,6 @@ nav img{
 .head h1{
   margin-bottom: 20px;
 }
-h2{
-  font-family: 'simplifica' sans-serif;
-}
-
 .demoimg img{
   width: 350px;
 }
@@ -60,7 +56,7 @@ h2{
   text-align: center;
   background-color: rgba(248,248,255,0.5);
   width: 85%;
-  margin: 150px auto 0 auto;
+  margin: 100px auto 0 auto;
 }
 .soko{
   text-align: center;
@@ -87,6 +83,18 @@ button img{
 }
 #about{
   background-color: #57595d;
+  text-align: center;
+}
+#about h1{
+  color: #ffffff;
+  margin-top: 20px;
+}
+#about p{
+  float: left;
+  line-height: 2;
+  color: #2f3038;
+  text-align: center;
+  margin: 100px auto auto 60px;
 }
 #contact a{
   text-decoration: none;
@@ -102,6 +110,7 @@ button img{
 #contact{
   height: 400px;
   background-color:  #221f1f;
+  clear: both;
 }
 #contact p{
   color: grey;
