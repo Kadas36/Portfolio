@@ -38,6 +38,9 @@ nav img{
 .head h1{
   margin-bottom: 20px;
 }
+h2{
+  font-family: 'simplifica' sans-serif;
+}
 
 .demoimg img{
   width: 350px;
@@ -47,6 +50,7 @@ nav img{
 }
 .bound{
   border: 0.5px solid rgba(43,45, 47, 0.5);
+  margin-top: 50px;
 }
 .demoimg{
   display: flex;
@@ -54,14 +58,13 @@ nav img{
 }
 #portfolio{
   text-align: center;
-  margin-top: 100px;
   background-color: rgba(248,248,255,0.5);
   width: 85%;
-  margin: 50px auto 0 auto;
+  margin: 150px auto 0 auto;
 }
 .soko{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 span{
   font-style: italic;
@@ -75,7 +78,31 @@ span{
 button{
   width: 10em;
   height: 2em;
-  border: 0.5px solid rgb(197, 5, 5);
+  border: 0.5px solid rgb(200, 28green, 40);
   border-radius: 3px;
   margin-top: 20px;
+}
+button img{
+  width: 15px;
+}
+#about{
+  background-color: #57595d;
+}
+#contact a{
+  text-decoration: none;
+}
+#contact a button{
+  text-align: left;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  width: 200px;
+}
+#contact{
+  height: 400px;
+  background-color:  #221f1f;
+}
+#contact p{
+  color: grey;
 }
