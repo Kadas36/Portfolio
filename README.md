@@ -10,3 +10,4 @@ https://kadas36.github.io/Portfolio/
 ## Support and contact details
 Incase of any troubles with the site email me at oduorthomas14@gmail.com
 ### License
+MIT © kadas36
