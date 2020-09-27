@@ -88,6 +88,9 @@ button{
   border-radius: 3px;
   margin-top: 20px;
 }
+button:hover{
+  background-color: #2f3038;
+}
 button img{
   width: 15px;
 }
@@ -132,10 +135,20 @@ button img{
   background-color: #221f1f;
   color: #57595d;
 }
+.social a button:hover{
+  background-color: #1dcaff;
+}
 .foot{
   background-color: #222221;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+a:hover{
+  color: black;
+  border-bottom: 2px solid #2f3038;
+}
+a:active{
+  color:blue;  
 }
