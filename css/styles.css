@@ -105,4 +105,12 @@ button img{
 #contact{
   height: 300px;
   background-color:  #221f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot{
+  background-color: #222221;
+  height: 20px;
 }
