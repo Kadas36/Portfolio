@@ -46,7 +46,7 @@ nav img{
 }
 .bound{
   border: 0.5px solid rgba(43,45, 47, 0.5);
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .demoimg{
   display: flex;
@@ -60,10 +60,14 @@ nav img{
 }
 .soko{
   text-align: center;
-  margin-top: 100px;
+  margin-top: 60px;
 }
-span{
-  font-style: italic;
+.soko h2{
+  margin-bottom: 10px;
+}
+.soko p{
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
 }
 .demoimg{
   margin-top: 50px;
@@ -88,14 +92,15 @@ button img{
 }
 #about h1{
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: 50px;
+  padding-top: 40px;
 }
 #about p{
   float: left;
   line-height: 2;
   color: #2f3038;
   text-align: center;
-  margin: 100px auto auto 60px;
+  margin: 120px auto auto 80px;
 }
 #contact{
   height: 300px;
